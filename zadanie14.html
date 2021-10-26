@@ -11,8 +11,13 @@
 		var t = parseFloat(t_n);
 		var tiz = parseFloat(tiz_n);
 		var lambda;
-		lambda = LN2 / tiz;
+		lambda = Math.LN2 / tiz;
 		var N;
-		N = No * pow(E, -lambda*t);
+		N = No * Math.pow(Math.E, -lambda*t);
+		document.write("NO =", No);
+		document.write("t =", t);
+		document.write("t1/2 =", tiz );
+		document.write("lambda =", lambda);
+		document.write("N =", N);
 	</body>
 </html>
