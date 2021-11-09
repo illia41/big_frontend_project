@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title> Zadanie 15 </title>
+	</head>
+	<body>
+		<div style="color:red; font-size:50px">
+		<script language="JavaScript">
+			var  x1_koip = prompt("enter x1: ", "");
+			var  x2_koip = prompt("enter x2: ", "");
+			var x1_koi = parseFloat(x1_koip);
+			var x2_koi = parseFloat(x2_koip);
+			document.write("x1: ", x1_koi, "x2: ", x2_koi);
+			var  y;
+			y = 3*Math.pow(x1_koi,  (5/7));
+			document.write("y:  ", y);
+			var  y1;
+			var  xr1 = prompt("enter x1 w stopniach: ", ""); 
+			var xr1 = parseFloat(xr1);
+			var  x1_rad = (x1*2*3)/360;
+			y1 =  2*Math.cos(x1)+2*Math.sin(x1);
+			document.write("w radianach: ", x1_rad, "y1:   ", y1);
+			var  y3;
+			y3 = Math.pow(Math.pow(x1_koi, 5) +2*Math.pow(x2_koi, 4)*Math.abs(x1-x2), 1/3);
+			document.write("y3: ", y3);
+	</body>
+</html>
