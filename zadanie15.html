@@ -1,0 +1,27 @@
+<html>
+	<head>
+	<title> zadanie 15 </title>
+	</head>
+	<body>
+		<div style="color:red; font-size: 50px">
+		<script language="JavaScript">
+			var x1_koi = prompt("enter x1", "");
+			var x2_koi = prompt("enter x2", "");
+			var x1 = parseFloat(x1_koi);
+			var x2 = parseFloat(x2_koi);
+			
+			var y = 3 * Math.pow(x1, 7/9);
+			var x11_p = prompt("enter x1 stopni: ", "");
+			var x1_pp = parseFloat(x11_p);
+			var x1_p = (x1_pp * 2 * 3.14)/360;
+			var y1 = 2 * Math.cos(x1_p) + 2 * Math.sin(x1_p);
+			var y2 = Math.pow(Math.pow(x1, 5) + 2 * Math.pow(x2, 4), 1/3) * abs(x1 - x2);
+			document.write("x1 = ", x1);
+			document.write("x2 = ", x2);
+			document.write("y = ", y);
+			document.write("y1 = ", y1);
+			document.write("y2 = ", y2);
+		</script>
+		</div>
+	</body>
+</html>
